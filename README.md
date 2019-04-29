@@ -15,15 +15,16 @@ I have created a high grade data pipeline that is dynamic and built from reusabl
 
 
 ### Files
+
 - `udac_example_dag.py` - python file to create tunable Airflow Dags. 
 
-- The operators folder with operator templates
+The operators folder with operator templates
  - `data_quality.py` - python file to validate data quality
  - `load_dimension.py` - python file to load dimensional tables
  - `load_fact.py` - python file to load dimensional tables
  - `stage_redshift.py` - python file to stage data to RedShift cluster
 
-- The `helpers` folder 
+The `helpers` folder 
  - A helper class for the SQL transformations
 
 - `create_tables.sql` - SQL queires 
